@@ -1,0 +1,214 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white-paragraphs: hsl(0, 0%, 100%, 0.75);
+  --Very-light-gray-bhb: hsl(0, 0%, 95%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.cards-container {
+  padding-top: 15px;
+}
+
+.card--orange {
+  background-color: var(--Bright-orange);
+  width: 100%;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.card--orange h1 {
+  color: var(--Very-light-gray-bhb);
+  padding: 3px;
+  margin: 15px;
+}
+
+.card--orange p {
+  color: var(--Transparent-white-paragraphs);
+  margin: 15px;
+
+}
+
+.card--orange div {
+  padding-bottom: 10px;
+}
+
+.card--orange button {
+  margin: 15px;
+  border-radius: 30px;
+  width: 45%;
+  height: 40px;
+}
+
+.button-organge--hover:hover {
+  border: 1px solid;
+  background-color: var(--Bright-orange);
+  color: var(--Very-light-gray-bhb);
+
+}
+
+.card--Dark-cyan {
+  background-color: var(--Dark-cyan);
+  width: 100%;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.card--Dark-cyan h1 {
+  color: var(--Very-light-gray-bhb);
+  padding: 3px;
+  margin: 15px;
+}
+
+.card--Dark-cyan p {
+  color: var(--Transparent-white-paragraphs);
+  margin: 15px;
+
+}
+
+.card--Dark-cyan button {
+  margin: 15px;
+  border-radius: 30px;
+  width: 45%;
+  height: 40px;
+}
+
+.button-Darkcyan--hover:hover {
+  border: 1px solid;
+  background-color: var(--Dark-cyan);
+  color: var(--Very-light-gray-bhb);
+}
+
+.card--verydarkcyan {
+  background-color: var(--Very-dark-cyan);
+  width: 100%;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.card--verydarkcyan h1 {
+  color: var(--Very-light-gray-bhb);
+  padding: 3px;
+  margin: 15px;
+}
+
+.card--verydarkcyan p {
+  color: var(--Transparent-white-paragraphs);
+  margin: 15px;
+
+}
+
+.card--verydarkcyan button {
+  margin: 15px;
+  border-radius: 30px;
+  width: 45%;
+  height: 40px;
+}
+
+.button-verydarkcyan--hover:hover {
+  border: 1px solid;
+  background-color: var(--Very-dark-cyan);
+  color: var(--Very-light-gray-bhb);
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--Very-light-gray-bhb);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width: 360px) and (max-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1879px) {
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+
+  }
+
+  .card--orange {
+    width: 90%;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+
+  .card--orange button {
+    margin: 15px;
+    border-radius: 40px;
+    width: 60%;
+  }
+
+  .card--orange div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .card--Dark-cyan {
+    width: 90%;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+
+  .card--Dark-cyan div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .card--Dark-cyan button {
+    margin: 15px;
+    border-radius: 30px;
+    width: 60%;
+  }
+
+  .card--verydarkcyan {
+    width: 90%;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+
+  .card--verydarkcyan div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .card--verydarkcyan button {
+    margin: 15px;
+    border-radius: 30px;
+    width: 60%;
+  }
+}
+@media(min-width: 768px) and (max-width: 1440px) {
+
+}
